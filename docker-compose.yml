@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  optimus:
+    build: .
+    ports:
+      - 3000:3000
+    command: [ 'python3', 'run.py' ]
